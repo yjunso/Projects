@@ -41,7 +41,9 @@ class MyWindow(QMainWindow):
     def OnEventConnect(self, ErrCode):
         if ErrCode == 0:
             self.text_edit.append("로그인 성공")
-        
+            self.statusBar().showMessage("Connected")  
+            self.text_status.append("Connected")
+      
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWindow = MyWindow()
