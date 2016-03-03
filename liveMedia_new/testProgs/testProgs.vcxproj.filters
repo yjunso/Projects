@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\playCommon.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\MPEG2TransportStreamIndexer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\openRTSP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\playCommon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\playSIP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\registerRTSPStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\sapWatch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testAMRAudioStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testDVVideoStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testGSMStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testH264VideoStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testH264VideoToTransportStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testH265VideoStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testH265VideoToTransportStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMKVStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMP3Receiver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMP3Streamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG1or2AudioVideoStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG1or2ProgramToTransportStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG1or2Splitter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG1or2VideoReceiver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG1or2VideoStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG2TransportReceiver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG2TransportStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG2TransportStreamTrickPlay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG4VideoStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testOggStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testOnDemandRTSPServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testRelay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testReplicator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testRTSPClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testWAVAudioStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\vobStreamer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\COPYING" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\Makefile.head" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\Makefile.tail" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMP3.sdp" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMP3-using-ADUs.sdp" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG1or2AudioVideo.sdp" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG1or2Video.sdp" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testMPEG2Transport.sdp" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\testProgs\testProgs.mak" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,244 @@
+﻿  stdafx.cpp
+  vobStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(22): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(23): warning C4627: '#include "AC3AudioStreamFramer.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(24): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(25): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(25): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\vobstreamer.cpp(300): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testWAVAudioStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testwavaudiostreamer.cpp(20): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testwavaudiostreamer.cpp(20): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testwavaudiostreamer.cpp(21): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testwavaudiostreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testwavaudiostreamer.cpp(23): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testwavaudiostreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testwavaudiostreamer.cpp(240): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testRTSPClient.cpp
+c:\00_server\01_acting\live555\live\testprogs\testrtspclient.cpp(23): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testrtspclient.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testrtspclient.cpp(24): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testrtspclient.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testrtspclient.cpp(532): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testReplicator.cpp
+c:\00_server\01_acting\live555\live\testprogs\testreplicator.cpp(23): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testreplicator.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testreplicator.cpp(24): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testreplicator.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testreplicator.cpp(25): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testreplicator.cpp(25): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testreplicator.cpp(115): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testRelay.cpp
+c:\00_server\01_acting\live555\live\testprogs\testrelay.cpp(21): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testrelay.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testrelay.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testrelay.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testrelay.cpp(23): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testrelay.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testrelay.cpp(88): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testOnDemandRTSPServer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testondemandrtspserver.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testondemandrtspserver.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testondemandrtspserver.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testondemandrtspserver.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testondemandrtspserver.cpp(456): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testOggStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testoggstreamer.cpp(21): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testoggstreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testoggstreamer.cpp(22): warning C4627: '#include <BasicUsageEnvironment.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testoggstreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testoggstreamer.cpp(23): warning C4627: '#include <GroupsockHelper.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testoggstreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testoggstreamer.cpp(183): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG4VideoStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg4videostreamer.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg4videostreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg4videostreamer.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg4videostreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg4videostreamer.cpp(23): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg4videostreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg4videostreamer.cpp(127): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG2TransportStreamTrickPlay.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamtrickplay.cpp(25): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamtrickplay.cpp(25): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamtrickplay.cpp(26): warning C4627: '#include <BasicUsageEnvironment.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamtrickplay.cpp(26): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamtrickplay.cpp(130): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG2TransportStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamer.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamer.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamer.cpp(23): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportstreamer.cpp(159): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG2TransportReceiver.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportreceiver.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportreceiver.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportreceiver.cpp(22): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportreceiver.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportreceiver.cpp(24): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportreceiver.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg2transportreceiver.cpp(119): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG1or2VideoStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videostreamer.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videostreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videostreamer.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videostreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videostreamer.cpp(23): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videostreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videostreamer.cpp(175): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG1or2VideoReceiver.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videoreceiver.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videoreceiver.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videoreceiver.cpp(22): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videoreceiver.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videoreceiver.cpp(24): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videoreceiver.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2videoreceiver.cpp(119): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG1or2Splitter.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2splitter.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2splitter.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2splitter.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2splitter.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2splitter.cpp(23): warning C4627: '#include <stdlib.h>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2splitter.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2splitter.cpp(103): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG1or2ProgramToTransportStream.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2programtotransportstream.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2programtotransportstream.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2programtotransportstream.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2programtotransportstream.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2programtotransportstream.cpp(75): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMPEG1or2AudioVideoStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2audiovideostreamer.cpp(22): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2audiovideostreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2audiovideostreamer.cpp(23): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2audiovideostreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2audiovideostreamer.cpp(24): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2audiovideostreamer.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmpeg1or2audiovideostreamer.cpp(203): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMP3Streamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmp3streamer.cpp(20): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmp3streamer.cpp(20): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmp3streamer.cpp(21): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmp3streamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmp3streamer.cpp(23): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmp3streamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmp3streamer.cpp(200): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMP3Receiver.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmp3receiver.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmp3receiver.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmp3receiver.cpp(22): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmp3receiver.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmp3receiver.cpp(24): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmp3receiver.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmp3receiver.cpp(151): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testMKVStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testmkvstreamer.cpp(21): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmkvstreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmkvstreamer.cpp(22): warning C4627: '#include <BasicUsageEnvironment.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmkvstreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmkvstreamer.cpp(23): warning C4627: '#include <GroupsockHelper.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testmkvstreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testmkvstreamer.cpp(179): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testH265VideoToTransportStream.cpp
+c:\00_server\01_acting\live555\live\testprogs\testh265videototransportstream.cpp(20): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh265videototransportstream.cpp(20): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh265videototransportstream.cpp(21): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh265videototransportstream.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh265videototransportstream.cpp(71): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  testH265VideoStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testh265videostreamer.cpp(28): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh265videostreamer.cpp(28): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh265videostreamer.cpp(29): warning C4627: '#include <BasicUsageEnvironment.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh265videostreamer.cpp(29): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh265videostreamer.cpp(30): warning C4627: '#include <GroupsockHelper.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh265videostreamer.cpp(30): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh265videostreamer.cpp(134): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testH264VideoToTransportStream.cpp
+c:\00_server\01_acting\live555\live\testprogs\testh264videototransportstream.cpp(20): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh264videototransportstream.cpp(20): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh264videototransportstream.cpp(21): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh264videototransportstream.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh264videototransportstream.cpp(71): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testH264VideoStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testh264videostreamer.cpp(27): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh264videostreamer.cpp(27): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh264videostreamer.cpp(28): warning C4627: '#include <BasicUsageEnvironment.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh264videostreamer.cpp(28): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh264videostreamer.cpp(29): warning C4627: '#include <GroupsockHelper.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testh264videostreamer.cpp(29): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testh264videostreamer.cpp(133): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testGSMStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testgsmstreamer.cpp(23): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testgsmstreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testgsmstreamer.cpp(24): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testgsmstreamer.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testgsmstreamer.cpp(26): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testgsmstreamer.cpp(26): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testgsmstreamer.cpp(169): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testDVVideoStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testdvvideostreamer.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testdvvideostreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testdvvideostreamer.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testdvvideostreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testdvvideostreamer.cpp(23): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testdvvideostreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testdvvideostreamer.cpp(129): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  testAMRAudioStreamer.cpp
+c:\00_server\01_acting\live555\live\testprogs\testamraudiostreamer.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testamraudiostreamer.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testamraudiostreamer.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testamraudiostreamer.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testamraudiostreamer.cpp(23): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\testamraudiostreamer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\testamraudiostreamer.cpp(123): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  sapWatch.cpp
+c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(20): warning C4627: '#include "Groupsock.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(20): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(21): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(23): warning C4627: '#include <stdio.h>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\sapwatch.cpp(74): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  registerRTSPStream.cpp
+c:\00_server\01_acting\live555\live\testprogs\registerrtspstream.cpp(21): warning C4627: '#include "liveMedia.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\registerrtspstream.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\registerrtspstream.cpp(22): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\registerrtspstream.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\registerrtspstream.cpp(103): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  playSIP.cpp
+c:\00_server\01_acting\live555\live\testprogs\playsip.cpp(20): warning C4627: '#include "playCommon.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\playsip.cpp(20): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\playsip.cpp(21): warning C4627: '#include "SIPClient.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\playsip.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\playsip.cpp(185): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  playCommon.cpp
+c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(24): warning C4627: '#include "playCommon.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(25): warning C4627: '#include "BasicUsageEnvironment.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(25): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(26): warning C4627: '#include "GroupsockHelper.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(26): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(31): warning C4627: '#include <signal.h>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(31): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\playcommon.cpp(1525): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  openRTSP.cpp
+c:\00_server\01_acting\live555\live\testprogs\openrtsp.cpp(24): warning C4627: '#include "playCommon.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\openrtsp.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\openrtsp.cpp(69): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  MPEG2TransportStreamIndexer.cpp
+c:\00_server\01_acting\live555\live\testprogs\mpeg2transportstreamindexer.cpp(23): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\mpeg2transportstreamindexer.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\mpeg2transportstreamindexer.cpp(24): warning C4627: '#include <BasicUsageEnvironment.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\testprogs\mpeg2transportstreamindexer.cpp(24): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\testprogs\mpeg2transportstreamindexer.cpp(91): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  코드를 생성하고 있습니다...

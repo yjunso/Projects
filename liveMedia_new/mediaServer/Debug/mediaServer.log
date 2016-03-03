@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  live555MediaServer.cpp
+c:\00_server\01_acting\live555\live\mediaserver\live555mediaserver.cpp(20): warning C4627: '#include <BasicUsageEnvironment.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\mediaserver\live555mediaserver.cpp(20): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\mediaserver\live555mediaserver.cpp(21): warning C4627: '#include "DynamicRTSPServer.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\mediaserver\live555mediaserver.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\mediaserver\live555mediaserver.cpp(22): warning C4627: '#include "version.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\mediaserver\live555mediaserver.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\mediaserver\live555mediaserver.cpp(93): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  DynamicRTSPServer.cpp
+c:\00_server\01_acting\live555\live\mediaserver\dynamicrtspserver.cpp(21): warning C4627: '#include "DynamicRTSPServer.hh"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\mediaserver\dynamicrtspserver.cpp(21): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\mediaserver\dynamicrtspserver.cpp(22): warning C4627: '#include <liveMedia.hh>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\mediaserver\dynamicrtspserver.cpp(22): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\mediaserver\dynamicrtspserver.cpp(23): warning C4627: '#include <string.h>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+  c:\00_server\01_acting\live555\live\mediaserver\dynamicrtspserver.cpp(23): note: 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+c:\00_server\01_acting\live555\live\mediaserver\dynamicrtspserver.cpp(241): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  코드를 생성하고 있습니다...

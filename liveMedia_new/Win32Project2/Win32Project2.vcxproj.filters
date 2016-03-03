@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\EBMLNumber.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H263plusVideoStreamParser.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaDemuxedTrack.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaFileParser.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3ADUdescriptor.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3Internals.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3InternalsHuffman.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3StreamState.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEGVideoStreamParser.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggDemuxedTrack.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggFileParser.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\rtcp_from_spec.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\StreamParser.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AC3AudioFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AC3AudioRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AC3AudioRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AC3AudioStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ADTSAudioFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ADTSAudioFileSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AMRAudioFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AMRAudioFileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AMRAudioFileSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AMRAudioRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AMRAudioRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AMRAudioSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AudioInputDevice.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AudioRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\AVIFileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\Base64.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\BasicUDPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\BasicUDPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\BitVector.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ByteStreamFileSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ByteStreamMemoryBufferSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ByteStreamMultiFileSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\DeviceSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\DigestAuthentication.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\DVVideoFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\DVVideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\DVVideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\DVVideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\FileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\FileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\FramedFileSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\FramedFilter.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\FramedSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\GenericMediaServer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\GSMAudioRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H261VideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H263plusVideoFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H263plusVideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H263plusVideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H263plusVideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264or5VideoFileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264or5VideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264or5VideoStreamDiscreteFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264or5VideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264VideoFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264VideoFileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264VideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264VideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264VideoStreamDiscreteFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H264VideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H265VideoFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H265VideoFileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H265VideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H265VideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H265VideoStreamDiscreteFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\H265VideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\InputFile.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\JPEGVideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\JPEGVideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\JPEGVideoSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\liveMedia.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\liveMedia_version.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\Locale.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MatroskaFile.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MatroskaFileServerDemux.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\Media.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MediaSession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MediaSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MediaSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MediaTranscodingTable.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3ADU.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3ADUinterleaving.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3ADURTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3ADURTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3ADUTranscoder.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3AudioFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3FileSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MP3Transcoder.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2AudioRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2AudioRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2AudioStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2Demux.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2DemuxedElementaryStream.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2DemuxedServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2FileServerDemux.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2VideoFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2VideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2VideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2VideoStreamDiscreteFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG1or2VideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2IndexFromTransportStream.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportStreamFromESSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportStreamFromPESSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportStreamIndexFile.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportStreamMultiplexor.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportStreamTrickModeFilter.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG2TransportUDPServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4ESVideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4ESVideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4GenericRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4GenericRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4LATMAudioRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4LATMAudioRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4VideoFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4VideoStreamDiscreteFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEG4VideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MPEGVideoStreamFramer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MultiFramedRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\MultiFramedRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\OggFile.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\OggFileServerDemux.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\OggFileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\OnDemandServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ourMD5.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\OutputFile.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\PassiveServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ProxyServerMediaSession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\QCELPAudioRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\QuickTimeFileSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\QuickTimeGenericRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTCP.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTPInterface.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTSPClient.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTSPCommon.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTSPRegisterSender.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTSPServer.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\RTSPServerSupportingHTTPStreaming.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\ServerMediaSession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\SimpleRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\SimpleRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\SIPClient.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\StreamReplicator.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\T140TextRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\TCPStreamSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\TextRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\TheoraVideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\TheoraVideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\uLawAudioFilter.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\VideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\VorbisAudioRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\VorbisAudioRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\VP8VideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\VP8VideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\VP9VideoRTPSink.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\VP9VideoRTPSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\WAVAudioFileServerMediaSubsession.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\include\WAVAudioFileSource.hh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AC3AudioFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AC3AudioRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AC3AudioRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AC3AudioStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ADTSAudioFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ADTSAudioFileSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AMRAudioFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AMRAudioFileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AMRAudioFileSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AMRAudioRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AMRAudioRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AMRAudioSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AudioInputDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AudioRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\AVIFileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\Base64.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\BasicUDPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\BasicUDPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\BitVector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ByteStreamFileSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ByteStreamMemoryBufferSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ByteStreamMultiFileSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\DeviceSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\DigestAuthentication.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\DVVideoFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\DVVideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\DVVideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\DVVideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\EBMLNumber.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\FileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\FileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\FramedFileSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\FramedFilter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\FramedSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\GenericMediaServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\GSMAudioRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H261VideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H263plusVideoFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H263plusVideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H263plusVideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H263plusVideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H263plusVideoStreamParser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264or5VideoFileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264or5VideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264or5VideoStreamDiscreteFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264or5VideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264VideoFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264VideoFileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264VideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264VideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264VideoStreamDiscreteFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H264VideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H265VideoFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H265VideoFileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H265VideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H265VideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H265VideoStreamDiscreteFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\H265VideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\InputFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\JPEGVideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\JPEGVideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\JPEGVideoSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\Locale.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaDemuxedTrack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaFileParser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaFileServerDemux.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MatroskaFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\Media.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MediaSession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MediaSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MediaSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3ADU.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3ADUdescriptor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3ADUinterleaving.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3ADURTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3ADURTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3ADUTranscoder.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3AudioFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3FileSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3Internals.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3InternalsHuffman.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3InternalsHuffmanTable.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3StreamState.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MP3Transcoder.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2AudioRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2AudioRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2AudioStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2Demux.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2DemuxedElementaryStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2FileServerDemux.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2VideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2VideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG1or2VideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2IndexFromTransportStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportStreamFromESSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportStreamFromPESSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportStreamIndexFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportStreamMultiplexor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4ESVideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4ESVideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4GenericRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4GenericRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4LATMAudioRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4LATMAudioRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEG4VideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEGVideoStreamFramer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MPEGVideoStreamParser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MultiFramedRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\MultiFramedRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggDemuxedTrack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggFileParser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggFileServerDemux.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OggFileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OnDemandServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ourMD5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\OutputFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\PassiveServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ProxyServerMediaSession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\QCELPAudioRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\QuickTimeFileSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\QuickTimeGenericRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTCP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\rtcp_from_spec.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTPInterface.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTSPClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTSPCommon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTSPRegisterSender.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTSPServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\RTSPServerSupportingHTTPStreaming.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\ServerMediaSession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\SimpleRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\SimpleRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\SIPClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\StreamParser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\StreamReplicator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\T140TextRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\TCPStreamSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\TextRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\TheoraVideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\TheoraVideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\uLawAudioFilter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\VideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\VorbisAudioRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\VorbisAudioRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\VP8VideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\VP8VideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\VP9VideoRTPSink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\VP9VideoRTPSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\WAVAudioFileServerMediaSubsession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\WAVAudioFileSource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\COPYING" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\liveMedia.mak" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\Makefile.head" />
+    <None Include="..\..\..\..\..\..\..\00_Server\01_Acting\live555\live\liveMedia\Makefile.tail" />
+  </ItemGroup>
+</Project>
