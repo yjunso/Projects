@@ -44,6 +44,7 @@ class MyWindow(QMainWindow):
             self.statusBar().showMessage("Connected")  
             self.text_status.append("Connected")
       
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWindow = MyWindow()
