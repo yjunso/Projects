@@ -1,0 +1,14 @@
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Release\KOASampleCS.exe.config
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\Interop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\AxInterop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\KOASampleCS.csproj.ResolveComReference.cache
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Release\KOASampleCS.exe
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Release\KOASampleCS.pdb
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Release\Interop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Release\AxInterop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\KOASampleCS.CondListForm2.resources
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\KOASampleCS.Form1.resources
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\KOASampleCS.Properties.Resources.resources
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\KOASampleCS.csproj.GenerateResource.Cache
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\KOASampleCS.exe
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Release\KOASampleCS.pdb

@@ -1,12 +1,4 @@
-﻿/************************************************************
-  샘플버전 : 1.0.0.0 ( 2015.01.23 )
-  샘플제작 : (주)에스비씨엔 / sbcn.co.kr/ ZooATS.com
-  샘플환경 : Visual Studio 2013 / C# 5.0
-  샘플문의 : support@zooats.com / john@sbcn.co.kr
-  전    화 : 02-719-5500 / 070-7777-6555
-************************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +12,7 @@ using KiwoomCode;
 
 namespace KOASampleCS
 {
-
+    
     public partial class Form1 : Form
     {
   
@@ -29,6 +21,8 @@ namespace KOASampleCS
             public string strConditionName;
             public int nIndex;
         }
+
+        CondListForm2 CondListForm = null;
 
         private int _scrNum = 5000;
         private string _strRealConScrNum = "0000";
@@ -186,6 +180,15 @@ namespace KOASampleCS
             if (Error.IsError(e.nErrCode))
             {
                 Logger(Log.일반, "[로그인 처리결과] " + Error.GetErrorMessage());
+                lbl아이디.Text = axKHOpenAPI.GetLoginInfo("USER_ID");
+                lbl이름.Text = axKHOpenAPI.GetLoginInfo("USER_NAME");
+
+                string[] arr계좌 = axKHOpenAPI.GetLoginInfo("ACCNO").Split(';');
+
+                cbo계좌.Items.AddRange(arr계좌);
+                cbo계좌.SelectedIndex = 0;
+
+                txt조회날짜.Text = DateTime.Now.ToString("yyyyMMdd");
             }
             else
             {
@@ -491,29 +494,59 @@ namespace KOASampleCS
         private void 조건명리스트호출ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string strConList;
+            int m_nRet;
 
-            strConList = axKHOpenAPI.GetConditionNameList().Trim();
+            Logger(Log.조회, "조건명리스트 호출");
 
-            Logger(Log.조회, strConList);
+            m_nRet = axKHOpenAPI.GetConditionLoad();
 
-            // 분리된 문자 배열 저장
-            string[] spConList = strConList.Split(';');
+            Logger(Log.조회, m_nRet.ToString());
 
-            // ComboBox 출력
-            for(int i = 0; i < spConList.Length; i++)
+            if (m_nRet > 0)
             {
-                if(spConList[i].Trim().Length >= 2)
+                strConList = axKHOpenAPI.GetConditionNameList();
+
+                Logger(Log.조회, strConList);
+
+                string[] spConList = strConList.Split(';');
+
+                // ComboBox 출력
+                for (int i = 0; i < spConList.Length; i++)
                 {
-                    string[] spCon = spConList[i].Split('^');
-                    int nIndex = Int32.Parse(spCon[0]);
-                    string strConditionName = spCon[1];
-                    cbo조건식.Items.Insert(nIndex, strConditionName);
+                    if (spConList[i].Trim().Length >= 2)
+                    {
+                        string[] spCon = spConList[i].Split('^');
+                        int nIndex = Int32.Parse(spCon[0]);
+                        string strConditionName = spCon[1];
+                        cbo조건식.Items.Insert(nIndex, strConditionName);
+                    }
                 }
             }
+            // 분리된 문자 배열 저장
+            
 
-            cbo조건식.SelectedIndex = 0;
-  
+            if (cbo조건식.Items.Count > 0)
+                cbo조건식.SelectedIndex = 0;
+        }
 
+        public void Form1_SendCondition(String sText, int sIndex)
+        {
+            int lRet;
+
+            lRet = axKHOpenAPI.SendCondition(GetScrNum(),
+                                              sText,
+                                              sIndex,
+                                              0);
+
+            if (lRet == 1)
+            {
+                Logger(Log.일반, "Form1_SendCondition : 조건식 일반 조회 실행이 성공 되었습니다");
+            }
+            else
+            {
+                Logger(Log.에러, "Form1_SendCondition : 조건식 일반 조회 실행이 실패 하였습니다");
+            }
+        }
         private void btn_조건일반조회_Click(object sender, EventArgs e)
         {
             int lRet;
@@ -611,6 +644,22 @@ namespace KOASampleCS
             Logger(Log.조회, "[조건명] : " + e.strConditionName);
             Logger(Log.조회, "[조건명 인덱스 ] : " + e.nIndex.ToString());
             Logger(Log.조회, "[연속조회] : " + e.nNext.ToString());
+
+            if(CondListForm!=null)
+            {
+           //     CondListForm
+            }
+        }
+
+        public string Form1ReceiveTrCondition(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnReceiveTrConditionEvent e)
+        {
+            Logger(Log.조회, "[화면번호] : " + e.sScrNo);
+            Logger(Log.조회, "[종목리스트] : " + e.strCodeList);
+            Logger(Log.조회, "[조건명] : " + e.strConditionName);
+            Logger(Log.조회, "[조건명 인덱스 ] : " + e.nIndex.ToString());
+            Logger(Log.조회, "[연속조회] : " + e.nNext.ToString());
+
+            return e.strCodeList;
         }
 
         private void btn_조건실시간중지_Click(object sender, EventArgs e)
@@ -666,6 +715,81 @@ namespace KOASampleCS
                 _bRealTrade = true;
                 Logger(Log.일반, "======= 자동 주문 실행 ========");
             }
+        }
+
+        private void cbo계좌_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lbl아이디.Text = axKHOpenAPI.GetLoginInfo("USER_ID");
+            lbl이름.Text = axKHOpenAPI.GetLoginInfo("USER_NAME");
+
+            string[] arr계좌 = axKHOpenAPI.GetLoginInfo("ACCNO").Split(';');
+
+            cbo계좌.Items.AddRange(arr계좌);
+            cbo계좌.SelectedIndex = 0;
+
+        }
+
+        private void lst일반_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        public int Form1_CondListLoad()
+        {
+            int m_nRet;
+            m_nRet = axKHOpenAPI.GetConditionLoad();
+            Logger(Log.조회, "Form1_CondListLoad() 조건명리스트 호출");
+
+            return m_nRet;
+        }
+
+        public string Form1_CondNameLoad()
+        {
+            string strConList;
+            Logger(Log.조회, "Form1_CondNameLoad() 조건식 결과 출력");
+
+            strConList = axKHOpenAPI.GetConditionNameList();
+
+            Logger(Log.조회, strConList);
+
+            return strConList;
+        }
+
+
+        private void btn새창조회_Click(object sender, EventArgs e)
+        {
+            int m_nRet;
+            
+            // 조건검색을 시작하려면 한번은 꼭 호출해야한다.
+            m_nRet = axKHOpenAPI.GetConditionLoad();
+
+            Logger(Log.조회, "조건명리스트 호출");
+
+            Logger(Log.조회, m_nRet.ToString());
+
+            if (m_nRet > 0)
+            {
+                CondListForm = new CondListForm2(this);
+                //CondListForm.MdiParent = this;
+                CondListForm.Show();
+                
+            }
+
+        }
+
+        private void cbo조건식_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void Form1Logger(String str)
+        {
+            Logger(Log.조회, str);
         }
     }
 }

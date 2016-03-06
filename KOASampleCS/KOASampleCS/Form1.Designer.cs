@@ -80,6 +80,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cbo조건식 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn새창조회 = new System.Windows.Forms.Button();
             this.btn_조건실시간중지 = new System.Windows.Forms.Button();
             this.btn조건실시간조회 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
@@ -91,6 +92,7 @@
             this.txt실시간종목코드 = new System.Windows.Forms.TextBox();
             this.btn자동주문 = new System.Windows.Forms.Button();
             this.menuStrip.SuspendLayout();
+            this.grp로그.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axKHOpenAPI)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -106,7 +108,8 @@
             this.조건검색ToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1445, 24);
+            this.menuStrip.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip.Size = new System.Drawing.Size(1092, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip";
             // 
@@ -169,14 +172,14 @@
             // 현재가ToolStripMenuItem
             // 
             this.현재가ToolStripMenuItem.Name = "현재가ToolStripMenuItem";
-            this.현재가ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.현재가ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.현재가ToolStripMenuItem.Text = "현재가";
             this.현재가ToolStripMenuItem.Click += new System.EventHandler(this.현재가ToolStripMenuItem_Click);
             // 
             // 일봉데이터ToolStripMenuItem
             // 
             this.일봉데이터ToolStripMenuItem.Name = "일봉데이터ToolStripMenuItem";
-            this.일봉데이터ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.일봉데이터ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.일봉데이터ToolStripMenuItem.Text = "일봉데이터";
             this.일봉데이터ToolStripMenuItem.Click += new System.EventHandler(this.일봉데이터ToolStripMenuItem_Click);
             // 
@@ -222,83 +225,82 @@
             // 
             this.lst실시간.FormattingEnabled = true;
             this.lst실시간.HorizontalScrollbar = true;
-            this.lst실시간.ItemHeight = 12;
-            this.lst실시간.Location = new System.Drawing.Point(805, 85);
+            this.lst실시간.Location = new System.Drawing.Point(267, 49);
             this.lst실시간.Name = "lst실시간";
-            this.lst실시간.Size = new System.Drawing.Size(611, 196);
+            this.lst실시간.Size = new System.Drawing.Size(396, 212);
             this.lst실시간.TabIndex = 2;
             // 
             // lst일반
             // 
             this.lst일반.FormattingEnabled = true;
             this.lst일반.HorizontalScrollbar = true;
-            this.lst일반.ItemHeight = 12;
-            this.lst일반.Location = new System.Drawing.Point(508, 85);
+            this.lst일반.Location = new System.Drawing.Point(435, 92);
             this.lst일반.Name = "lst일반";
-            this.lst일반.Size = new System.Drawing.Size(291, 196);
+            this.lst일반.Size = new System.Drawing.Size(250, 212);
             this.lst일반.TabIndex = 3;
+            this.lst일반.SelectedIndexChanged += new System.EventHandler(this.lst일반_SelectedIndexChanged);
             // 
             // lst조회
             // 
             this.lst조회.FormattingEnabled = true;
             this.lst조회.HorizontalScrollbar = true;
-            this.lst조회.ItemHeight = 12;
-            this.lst조회.Location = new System.Drawing.Point(805, 312);
+            this.lst조회.Location = new System.Drawing.Point(267, 295);
             this.lst조회.Name = "lst조회";
-            this.lst조회.Size = new System.Drawing.Size(611, 196);
+            this.lst조회.Size = new System.Drawing.Size(396, 212);
             this.lst조회.TabIndex = 4;
             // 
             // lst에러
             // 
             this.lst에러.FormattingEnabled = true;
             this.lst에러.HorizontalScrollbar = true;
-            this.lst에러.ItemHeight = 12;
-            this.lst에러.Location = new System.Drawing.Point(508, 312);
+            this.lst에러.Location = new System.Drawing.Point(435, 338);
             this.lst에러.Name = "lst에러";
-            this.lst에러.Size = new System.Drawing.Size(291, 196);
+            this.lst에러.Size = new System.Drawing.Size(250, 212);
             this.lst에러.TabIndex = 5;
             // 
             // lbl일반
             // 
             this.lbl일반.AutoSize = true;
-            this.lbl일반.Location = new System.Drawing.Point(506, 70);
+            this.lbl일반.Location = new System.Drawing.Point(434, 76);
             this.lbl일반.Name = "lbl일반";
-            this.lbl일반.Size = new System.Drawing.Size(29, 12);
+            this.lbl일반.Size = new System.Drawing.Size(29, 13);
             this.lbl일반.TabIndex = 6;
             this.lbl일반.Text = "일반";
             // 
             // lbl에러
             // 
             this.lbl에러.AutoSize = true;
-            this.lbl에러.Location = new System.Drawing.Point(506, 297);
+            this.lbl에러.Location = new System.Drawing.Point(434, 322);
             this.lbl에러.Name = "lbl에러";
-            this.lbl에러.Size = new System.Drawing.Size(29, 12);
+            this.lbl에러.Size = new System.Drawing.Size(29, 13);
             this.lbl에러.TabIndex = 7;
             this.lbl에러.Text = "에러";
             // 
             // lbl실시간
             // 
             this.lbl실시간.AutoSize = true;
-            this.lbl실시간.Location = new System.Drawing.Point(805, 70);
+            this.lbl실시간.Location = new System.Drawing.Point(690, 76);
             this.lbl실시간.Name = "lbl실시간";
-            this.lbl실시간.Size = new System.Drawing.Size(41, 12);
+            this.lbl실시간.Size = new System.Drawing.Size(40, 13);
             this.lbl실시간.TabIndex = 8;
             this.lbl실시간.Text = "실시간";
             // 
             // lbl조회
             // 
             this.lbl조회.AutoSize = true;
-            this.lbl조회.Location = new System.Drawing.Point(805, 297);
+            this.lbl조회.Location = new System.Drawing.Point(690, 322);
             this.lbl조회.Name = "lbl조회";
-            this.lbl조회.Size = new System.Drawing.Size(29, 12);
+            this.lbl조회.Size = new System.Drawing.Size(29, 13);
             this.lbl조회.TabIndex = 9;
             this.lbl조회.Text = "조회";
             // 
             // grp로그
             // 
-            this.grp로그.Location = new System.Drawing.Point(493, 49);
+            this.grp로그.Controls.Add(this.lst실시간);
+            this.grp로그.Controls.Add(this.lst조회);
+            this.grp로그.Location = new System.Drawing.Point(424, 43);
             this.grp로그.Name = "grp로그";
-            this.grp로그.Size = new System.Drawing.Size(940, 475);
+            this.grp로그.Size = new System.Drawing.Size(806, 515);
             this.grp로그.TabIndex = 10;
             this.grp로그.TabStop = false;
             this.grp로그.Text = "오픈 API 로그";
@@ -323,68 +325,69 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(12, 61);
+            this.Label1.Location = new System.Drawing.Point(10, 43);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(41, 12);
+            this.Label1.Size = new System.Drawing.Size(38, 13);
             this.Label1.TabIndex = 12;
             this.Label1.Text = "이름 : ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 87);
+            this.label2.Location = new System.Drawing.Point(106, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 13;
             this.label2.Text = "아이디 : ";
             // 
             // lbl이름
             // 
             this.lbl이름.AutoSize = true;
-            this.lbl이름.Location = new System.Drawing.Point(59, 61);
+            this.lbl이름.Location = new System.Drawing.Point(48, 43);
             this.lbl이름.Name = "lbl이름";
-            this.lbl이름.Size = new System.Drawing.Size(0, 12);
+            this.lbl이름.Size = new System.Drawing.Size(0, 13);
             this.lbl이름.TabIndex = 14;
             // 
             // lbl아이디
             // 
             this.lbl아이디.AutoSize = true;
-            this.lbl아이디.Location = new System.Drawing.Point(71, 87);
+            this.lbl아이디.Location = new System.Drawing.Point(155, 43);
             this.lbl아이디.Name = "lbl아이디";
-            this.lbl아이디.Size = new System.Drawing.Size(0, 12);
+            this.lbl아이디.Size = new System.Drawing.Size(0, 13);
             this.lbl아이디.TabIndex = 15;
             // 
             // cbo계좌
             // 
             this.cbo계좌.FormattingEnabled = true;
-            this.cbo계좌.Location = new System.Drawing.Point(82, 110);
+            this.cbo계좌.Location = new System.Drawing.Point(70, 63);
             this.cbo계좌.Name = "cbo계좌";
-            this.cbo계좌.Size = new System.Drawing.Size(121, 20);
+            this.cbo계좌.Size = new System.Drawing.Size(104, 21);
             this.cbo계좌.TabIndex = 16;
+            this.cbo계좌.SelectedIndexChanged += new System.EventHandler(this.cbo계좌_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 113);
+            this.label3.Location = new System.Drawing.Point(9, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.Size = new System.Drawing.Size(60, 13);
             this.label3.TabIndex = 17;
             this.label3.Text = "계좌번호 : ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 140);
+            this.label4.Location = new System.Drawing.Point(9, 96);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 12);
+            this.label4.Size = new System.Drawing.Size(57, 13);
             this.label4.TabIndex = 18;
             this.label4.Text = "종목코드 :";
             // 
             // txt종목코드
             // 
-            this.txt종목코드.Location = new System.Drawing.Point(82, 136);
+            this.txt종목코드.Location = new System.Drawing.Point(109, 91);
             this.txt종목코드.Name = "txt종목코드";
-            this.txt종목코드.Size = new System.Drawing.Size(75, 21);
+            this.txt종목코드.Size = new System.Drawing.Size(65, 20);
             this.txt종목코드.TabIndex = 19;
             this.txt종목코드.Text = "039490";
             this.txt종목코드.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt종목코드_KeyPress);
@@ -392,19 +395,19 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 171);
+            this.label5.Location = new System.Drawing.Point(9, 122);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 12);
+            this.label5.Size = new System.Drawing.Size(125, 13);
             this.label5.TabIndex = 20;
-            this.label5.Text = "조회날짜 (20141226)";
+            this.label5.Text = "조회날짜(예:20141226) :";
             // 
             // txt조회날짜
             // 
-            this.txt조회날짜.Location = new System.Drawing.Point(131, 168);
+            this.txt조회날짜.Location = new System.Drawing.Point(143, 119);
             this.txt조회날짜.Name = "txt조회날짜";
-            this.txt조회날짜.Size = new System.Drawing.Size(72, 21);
+            this.txt조회날짜.Size = new System.Drawing.Size(62, 20);
             this.txt조회날짜.TabIndex = 21;
-            this.txt조회날짜.Text = "20150126";
+            this.txt조회날짜.Text = "20160301";
             this.txt조회날짜.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt조회날짜_KeyPress);
             // 
             // groupBox1
@@ -422,18 +425,18 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Location = new System.Drawing.Point(14, 207);
+            this.groupBox1.Location = new System.Drawing.Point(12, 224);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(249, 246);
+            this.groupBox1.Size = new System.Drawing.Size(213, 267);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "주문입력";
             // 
             // btn주문
             // 
-            this.btn주문.Location = new System.Drawing.Point(27, 197);
+            this.btn주문.Location = new System.Drawing.Point(23, 213);
             this.btn주문.Name = "btn주문";
-            this.btn주문.Size = new System.Drawing.Size(198, 30);
+            this.btn주문.Size = new System.Drawing.Size(170, 33);
             this.btn주문.TabIndex = 12;
             this.btn주문.Text = "주     문";
             this.btn주문.UseVisualStyleBackColor = true;
@@ -442,49 +445,49 @@
             // cbo매매구분
             // 
             this.cbo매매구분.FormattingEnabled = true;
-            this.cbo매매구분.Location = new System.Drawing.Point(84, 78);
+            this.cbo매매구분.Location = new System.Drawing.Point(72, 85);
             this.cbo매매구분.Name = "cbo매매구분";
-            this.cbo매매구분.Size = new System.Drawing.Size(141, 20);
+            this.cbo매매구분.Size = new System.Drawing.Size(121, 21);
             this.cbo매매구분.TabIndex = 11;
             // 
             // cbo거래구분
             // 
             this.cbo거래구분.FormattingEnabled = true;
-            this.cbo거래구분.Location = new System.Drawing.Point(84, 47);
+            this.cbo거래구분.Location = new System.Drawing.Point(72, 51);
             this.cbo거래구분.Name = "cbo거래구분";
-            this.cbo거래구분.Size = new System.Drawing.Size(141, 20);
+            this.cbo거래구분.Size = new System.Drawing.Size(121, 21);
             this.cbo거래구분.TabIndex = 10;
             // 
             // txt원주문번호
             // 
-            this.txt원주문번호.Location = new System.Drawing.Point(84, 159);
+            this.txt원주문번호.Location = new System.Drawing.Point(72, 172);
             this.txt원주문번호.Name = "txt원주문번호";
-            this.txt원주문번호.Size = new System.Drawing.Size(141, 21);
+            this.txt원주문번호.Size = new System.Drawing.Size(121, 20);
             this.txt원주문번호.TabIndex = 9;
             this.txt원주문번호.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt원주문번호_KeyPress);
             // 
             // txt주문가격
             // 
-            this.txt주문가격.Location = new System.Drawing.Point(84, 134);
+            this.txt주문가격.Location = new System.Drawing.Point(72, 145);
             this.txt주문가격.Name = "txt주문가격";
-            this.txt주문가격.Size = new System.Drawing.Size(141, 21);
+            this.txt주문가격.Size = new System.Drawing.Size(121, 20);
             this.txt주문가격.TabIndex = 8;
             this.txt주문가격.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt주문가격_KeyPress);
             // 
             // txt주문수량
             // 
-            this.txt주문수량.Location = new System.Drawing.Point(84, 107);
+            this.txt주문수량.Location = new System.Drawing.Point(72, 116);
             this.txt주문수량.Name = "txt주문수량";
-            this.txt주문수량.Size = new System.Drawing.Size(141, 21);
+            this.txt주문수량.Size = new System.Drawing.Size(121, 20);
             this.txt주문수량.TabIndex = 7;
             this.txt주문수량.Text = "10";
             this.txt주문수량.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt주문수량_KeyPress);
             // 
             // txt주문종목코드
             // 
-            this.txt주문종목코드.Location = new System.Drawing.Point(84, 20);
+            this.txt주문종목코드.Location = new System.Drawing.Point(72, 22);
             this.txt주문종목코드.Name = "txt주문종목코드";
-            this.txt주문종목코드.Size = new System.Drawing.Size(141, 21);
+            this.txt주문종목코드.Size = new System.Drawing.Size(121, 20);
             this.txt주문종목코드.TabIndex = 6;
             this.txt주문종목코드.Text = "039490";
             this.txt주문종목코드.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt주문종목코드_KeyPress);
@@ -492,84 +495,97 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(9, 162);
+            this.label11.Location = new System.Drawing.Point(8, 176);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 12);
+            this.label11.Size = new System.Drawing.Size(62, 13);
             this.label11.TabIndex = 5;
             this.label11.Text = "원주문번호";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(21, 137);
+            this.label10.Location = new System.Drawing.Point(18, 148);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 12);
+            this.label10.Size = new System.Drawing.Size(51, 13);
             this.label10.TabIndex = 4;
             this.label10.Text = "주문가격";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(21, 110);
+            this.label9.Location = new System.Drawing.Point(18, 119);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.Size = new System.Drawing.Size(51, 13);
             this.label9.TabIndex = 3;
             this.label9.Text = "주문수량";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(21, 81);
+            this.label8.Location = new System.Drawing.Point(18, 88);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 12);
+            this.label8.Size = new System.Drawing.Size(51, 13);
             this.label8.TabIndex = 2;
             this.label8.Text = "매매구분";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(21, 53);
+            this.label7.Location = new System.Drawing.Point(18, 57);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.Size = new System.Drawing.Size(51, 13);
             this.label7.TabIndex = 1;
             this.label7.Text = "거래구분";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(21, 29);
+            this.label6.Location = new System.Drawing.Point(18, 31);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.Size = new System.Drawing.Size(51, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "종목코드";
             // 
             // cbo조건식
             // 
             this.cbo조건식.FormattingEnabled = true;
-            this.cbo조건식.Location = new System.Drawing.Point(64, 19);
+            this.cbo조건식.Location = new System.Drawing.Point(55, 21);
             this.cbo조건식.Name = "cbo조건식";
-            this.cbo조건식.Size = new System.Drawing.Size(121, 20);
+            this.cbo조건식.Size = new System.Drawing.Size(104, 21);
             this.cbo조건식.TabIndex = 23;
+            this.cbo조건식.SelectedIndexChanged += new System.EventHandler(this.cbo조건식_SelectedIndexChanged);
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btn새창조회);
             this.groupBox2.Controls.Add(this.btn_조건실시간중지);
             this.groupBox2.Controls.Add(this.btn조건실시간조회);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.btn_조건일반조회);
             this.groupBox2.Controls.Add(this.cbo조건식);
-            this.groupBox2.Location = new System.Drawing.Point(275, 49);
+            this.groupBox2.Location = new System.Drawing.Point(236, 43);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(212, 134);
+            this.groupBox2.Size = new System.Drawing.Size(182, 145);
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "조건검색";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // btn새창조회
+            // 
+            this.btn새창조회.Location = new System.Drawing.Point(15, 99);
+            this.btn새창조회.Name = "btn새창조회";
+            this.btn새창조회.Size = new System.Drawing.Size(64, 25);
+            this.btn새창조회.TabIndex = 28;
+            this.btn새창조회.Text = "새창조회";
+            this.btn새창조회.UseVisualStyleBackColor = true;
+            this.btn새창조회.Click += new System.EventHandler(this.btn새창조회_Click);
             // 
             // btn_조건실시간중지
             // 
-            this.btn_조건실시간중지.Location = new System.Drawing.Point(110, 91);
+            this.btn_조건실시간중지.Location = new System.Drawing.Point(94, 99);
             this.btn_조건실시간중지.Name = "btn_조건실시간중지";
-            this.btn_조건실시간중지.Size = new System.Drawing.Size(75, 23);
+            this.btn_조건실시간중지.Size = new System.Drawing.Size(64, 25);
             this.btn_조건실시간중지.TabIndex = 27;
             this.btn_조건실시간중지.Text = "실시간중지";
             this.btn_조건실시간중지.UseVisualStyleBackColor = true;
@@ -577,9 +593,9 @@
             // 
             // btn조건실시간조회
             // 
-            this.btn조건실시간조회.Location = new System.Drawing.Point(110, 53);
+            this.btn조건실시간조회.Location = new System.Drawing.Point(94, 57);
             this.btn조건실시간조회.Name = "btn조건실시간조회";
-            this.btn조건실시간조회.Size = new System.Drawing.Size(75, 23);
+            this.btn조건실시간조회.Size = new System.Drawing.Size(64, 25);
             this.btn조건실시간조회.TabIndex = 26;
             this.btn조건실시간조회.Text = "실시간조회";
             this.btn조건실시간조회.UseVisualStyleBackColor = true;
@@ -588,17 +604,17 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(6, 24);
+            this.label12.Location = new System.Drawing.Point(5, 26);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(53, 12);
+            this.label12.Size = new System.Drawing.Size(49, 13);
             this.label12.TabIndex = 25;
             this.label12.Text = "조건식 : ";
             // 
             // btn_조건일반조회
             // 
-            this.btn_조건일반조회.Location = new System.Drawing.Point(18, 53);
+            this.btn_조건일반조회.Location = new System.Drawing.Point(15, 57);
             this.btn_조건일반조회.Name = "btn_조건일반조회";
-            this.btn_조건일반조회.Size = new System.Drawing.Size(75, 23);
+            this.btn_조건일반조회.Size = new System.Drawing.Size(64, 25);
             this.btn_조건일반조회.TabIndex = 25;
             this.btn_조건일반조회.Text = "일반조회";
             this.btn_조건일반조회.UseVisualStyleBackColor = true;
@@ -610,18 +626,18 @@
             this.group실시간등록해제.Controls.Add(this.btn실시간등록);
             this.group실시간등록해제.Controls.Add(this.label13);
             this.group실시간등록해제.Controls.Add(this.txt실시간종목코드);
-            this.group실시간등록해제.Location = new System.Drawing.Point(275, 207);
+            this.group실시간등록해제.Location = new System.Drawing.Point(236, 224);
             this.group실시간등록해제.Name = "group실시간등록해제";
-            this.group실시간등록해제.Size = new System.Drawing.Size(212, 100);
+            this.group실시간등록해제.Size = new System.Drawing.Size(182, 108);
             this.group실시간등록해제.TabIndex = 25;
             this.group실시간등록해제.TabStop = false;
             this.group실시간등록해제.Text = "실시간 등록 해제";
             // 
             // btn실시간해제
             // 
-            this.btn실시간해제.Location = new System.Drawing.Point(131, 70);
+            this.btn실시간해제.Location = new System.Drawing.Point(112, 76);
             this.btn실시간해제.Name = "btn실시간해제";
-            this.btn실시간해제.Size = new System.Drawing.Size(75, 23);
+            this.btn실시간해제.Size = new System.Drawing.Size(64, 25);
             this.btn실시간해제.TabIndex = 29;
             this.btn실시간해제.Text = "실시간해제";
             this.btn실시간해제.UseVisualStyleBackColor = true;
@@ -629,9 +645,9 @@
             // 
             // btn실시간등록
             // 
-            this.btn실시간등록.Location = new System.Drawing.Point(8, 70);
+            this.btn실시간등록.Location = new System.Drawing.Point(7, 76);
             this.btn실시간등록.Name = "btn실시간등록";
-            this.btn실시간등록.Size = new System.Drawing.Size(75, 23);
+            this.btn실시간등록.Size = new System.Drawing.Size(64, 25);
             this.btn실시간등록.TabIndex = 28;
             this.btn실시간등록.Text = "실시간등록";
             this.btn실시간등록.UseVisualStyleBackColor = true;
@@ -640,24 +656,24 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(6, 24);
+            this.label13.Location = new System.Drawing.Point(5, 26);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(65, 12);
+            this.label13.Size = new System.Drawing.Size(60, 13);
             this.label13.TabIndex = 26;
             this.label13.Text = "종목코드 : ";
             // 
             // txt실시간종목코드
             // 
-            this.txt실시간종목코드.Location = new System.Drawing.Point(8, 44);
+            this.txt실시간종목코드.Location = new System.Drawing.Point(7, 48);
             this.txt실시간종목코드.Name = "txt실시간종목코드";
-            this.txt실시간종목코드.Size = new System.Drawing.Size(198, 21);
+            this.txt실시간종목코드.Size = new System.Drawing.Size(170, 20);
             this.txt실시간종목코드.TabIndex = 0;
             // 
             // btn자동주문
             // 
-            this.btn자동주문.Location = new System.Drawing.Point(275, 333);
+            this.btn자동주문.Location = new System.Drawing.Point(236, 361);
             this.btn자동주문.Name = "btn자동주문";
-            this.btn자동주문.Size = new System.Drawing.Size(206, 29);
+            this.btn자동주문.Size = new System.Drawing.Size(177, 31);
             this.btn자동주문.TabIndex = 26;
             this.btn자동주문.Text = "자동주문 시작";
             this.btn자동주문.UseVisualStyleBackColor = true;
@@ -665,9 +681,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1445, 536);
+            this.ClientSize = new System.Drawing.Size(1092, 581);
             this.Controls.Add(this.btn자동주문);
             this.Controls.Add(this.group실시간등록해제);
             this.Controls.Add(this.groupBox2);
@@ -688,17 +704,16 @@
             this.Controls.Add(this.lbl에러);
             this.Controls.Add(this.lbl일반);
             this.Controls.Add(this.lst에러);
-            this.Controls.Add(this.lst조회);
             this.Controls.Add(this.lst일반);
-            this.Controls.Add(this.lst실시간);
             this.Controls.Add(this.menuStrip);
             this.Controls.Add(this.grp로그);
             this.MainMenuStrip = this.menuStrip;
             this.Name = "Form1";
-            this.Text = "키움 오픈 API C# 예제 ( www.sbcn.co.kr )";
+            this.Text = "자동매매 트레이더";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
+            this.grp로그.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axKHOpenAPI)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -774,6 +789,7 @@
         private System.Windows.Forms.Button btn실시간등록;
         private System.Windows.Forms.Button btn실시간해제;
         private System.Windows.Forms.Button btn자동주문;
+        private System.Windows.Forms.Button btn새창조회;
     }
 }
 

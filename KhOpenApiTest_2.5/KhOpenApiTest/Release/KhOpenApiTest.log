@@ -1,0 +1,26 @@
+﻿  stdafx.cpp
+C:\Program Files\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  C:\Program Files\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: 'MBCS_Support_Deprecated_In_MFC' 선언을 참조하십시오.
+  CurrentPriceDlg.cpp
+  GridCell.cpp
+  GridCellBase.cpp
+  GridCtrl.cpp
+GridCtrl\GridCtrl.cpp(161): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+  C:\Program Files\Windows Kits\8.1\Include\um\sysinfoapi.h(433): note: 'GetVersionExA' 선언을 참조하십시오.
+  GridDropTarget.cpp
+  InPlaceEdit.cpp
+  TitleTip.cpp
+  KHOpenAPI.cpp
+  KHOpenAPICtrl.cpp
+  KhOpenApiTest.cpp
+  KhOpenApiTestDlg.cpp
+  KwanSimDlg.cpp
+  OrderDlg.cpp
+OrderDlg.cpp(274): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+OrderDlg.cpp(450): warning C4101: 'lFid' :참조되지 않은 지역 변수입니다.
+  RateDlg.cpp
+  RealAddDlg.cpp
+  코드를 생성하고 있습니다.
+  All 935 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  KhOpenApiTest.vcxproj -> C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KhOpenApiTest_2.5\KhOpenApiTest\Release\KhOpenApiTest.exe

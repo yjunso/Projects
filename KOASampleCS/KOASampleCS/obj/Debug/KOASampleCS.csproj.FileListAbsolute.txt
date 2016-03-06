@@ -40,3 +40,18 @@ E:\00_util\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.csprojResolveAssemblyRe
 E:\00_util\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.Form1.resources
 E:\00_util\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.Properties.Resources.resources
 E:\00_util\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.csproj.GenerateResource.Cache
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Debug\KOASampleCS.exe.config
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\Interop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\AxInterop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.csproj.ResolveComReference.cache
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.exe
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.pdb
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.csprojResolveAssemblyReference.cache
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.Form1.resources
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.Properties.Resources.resources
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.csproj.GenerateResource.Cache
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Debug\KOASampleCS.exe
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Debug\KOASampleCS.pdb
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Debug\Interop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\bin\Debug\AxInterop.KHOpenAPILib.dll
+C:\Users\Youngjun So.home-pc\Documents\GitHub\Projects\KOASampleCS\KOASampleCS\obj\Debug\KOASampleCS.CondListForm2.resources
