@@ -749,7 +749,6 @@
         private System.Windows.Forms.Label lbl실시간;
         private System.Windows.Forms.Label lbl조회;
         private System.Windows.Forms.GroupBox grp로그;
-        private AxKHOpenAPILib.AxKHOpenAPI axKHOpenAPI;
         private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl이름;
@@ -790,6 +789,9 @@
         private System.Windows.Forms.Button btn실시간해제;
         private System.Windows.Forms.Button btn자동주문;
         private System.Windows.Forms.Button btn새창조회;
+
+        public AxKHOpenAPILib.AxKHOpenAPI axKHOpenAPI;
+
     }
 }
 

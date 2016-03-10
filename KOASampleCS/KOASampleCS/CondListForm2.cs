@@ -63,7 +63,16 @@ namespace KOASampleCS
                 }
             }
             // 분리된 문자 배열 저장
-
+            /*
+            if (Parent.axKHOpenAPI.GetConnectState() == 0)
+            {
+                Parent.Logger(Log.일반, "Open API 연결 : 미연결");
+            }
+            else
+            {
+                Parent.Logger(Log.일반, "Open API 연결 : 연결중");
+            }
+            */
 
             if (cbo조건식.Items.Count > 0)
                 cbo조건식.SelectedIndex = 0;
@@ -81,17 +90,38 @@ namespace KOASampleCS
             RealAddGridView1.Columns[4].Name = "거래량";
             RealAddGridView1.Columns[5].Name = "52주 고가";
 
+            // Resize the height of the column headers. 
+            RealAddGridView1.AutoResizeColumnHeadersHeight();
+
+            // Resize all the row heights to fit the contents of all non-header cells.
+            RealAddGridView1.AutoResizeRows(
+                DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int lRet;
             Parent.Form1Logger("Form1Logger() : " + cbo조건식.SelectedText);
             
             if (cbo조건식.Items.Count > 0)
             {
                 //cbo조건식.SelectedIndex;
+                lRet = Parent.axKHOpenAPI.SendCondition(Parent.GetScrNum(),
+                                                  cbo조건식.Text,
+                                                  cbo조건식.SelectedIndex,
+                                                  0);
+
+                if (lRet == 1)
+                {
+                    Parent.Logger(Log.일반, "조건식 일반 조회 실행이 성공 되었습니다");
+                }
+                else
+                {
+                    Parent.Logger(Log.에러, "조건식 일반 조회 실행이 실패 하였습니다");
+                }
             }
-                
+
         }
 
         private void RealAddGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

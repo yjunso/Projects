@@ -22,7 +22,7 @@ namespace KOASampleCS
             public int nIndex;
         }
 
-        CondListForm2 CondListForm = null;
+        public CondListForm2 CondListForm = null;
 
         private int _scrNum = 5000;
         private string _strRealConScrNum = "0000";
@@ -32,7 +32,7 @@ namespace KOASampleCS
         private bool _bRealTrade = false;
 
         // 화면번호 생산
-        private string GetScrNum()
+        public string GetScrNum()
         {
             if (_scrNum < 9999)
                 _scrNum++;
@@ -645,9 +645,32 @@ namespace KOASampleCS
             Logger(Log.조회, "[조건명 인덱스 ] : " + e.nIndex.ToString());
             Logger(Log.조회, "[연속조회] : " + e.nNext.ToString());
 
-            if(CondListForm!=null)
             {
-           //     CondListForm
+                //     CondListForm
+                Logger(Log.조회, "[sender] : " + sender.ToString());
+
+                //  Reset DataGridView Rows
+                int rowCount = CondListForm.RealAddGridView1.Rows.Count;
+                if (rowCount  > 1)
+                {
+                    for(int i=0; i< rowCount; i++)
+                        CondListForm.RealAddGridView1.Rows.RemoveAt(i);
+                }
+
+
+                string[] spConList = e.strCodeList.Split(';');
+                string strCodeName;
+
+                // DataGridView 출력
+                for (int i = 0; i < spConList.Length; i++)
+                {
+                    strCodeName = axKHOpenAPI.GetMasterCodeName(spConList[i]);
+                    //cbo조건식.Items.Insert(nIndex, strConditionName);
+                    CondListForm.RealAddGridView1.Rows.Add(strCodeName);       
+
+                }
+
+
             }
         }
 
