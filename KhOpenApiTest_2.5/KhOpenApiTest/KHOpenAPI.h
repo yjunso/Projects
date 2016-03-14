@@ -43,7 +43,7 @@ public:
 		InvokeHelper(0x1, DISPATCH_METHOD, VT_I4, (void*)&result, NULL);
 		return result;
 	}
-	void CommTerminate()
+	void CommTerminate() 
 	{
 		InvokeHelper(0x2, DISPATCH_METHOD, VT_EMPTY, NULL, NULL);
 	}

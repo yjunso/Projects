@@ -16,6 +16,8 @@ namespace KOASampleCS
     {
         Form1 Parent;
 
+        private int _scrNum = 1;
+
         public CondListForm2()
         {
             InitializeComponent();
@@ -96,6 +98,27 @@ namespace KOASampleCS
             // Resize all the row heights to fit the contents of all non-header cells.
             RealAddGridView1.AutoResizeRows(
                 DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders);
+        }
+
+        public void OnReceiveTrCondition(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnReceiveTrConditionEvent e)
+        {
+            //  Reset DataGridView Rows
+            int rowCount = RealAddGridView1.Rows.Count;
+            if (rowCount > 1)
+                RealAddGridView1.Rows.Clear();
+            
+            string[] spConList = e.strCodeList.Split(';');
+            string strCodeName;
+
+            // DataGridView 출력
+            for (int i = 0; i < spConList.Length; i++)
+            {
+                strCodeName = Parent.axKHOpenAPI.GetMasterCodeName(spConList[i]);
+                //cbo조건식.Items.Insert(nIndex, strConditionName);
+                RealAddGridView1.Rows.Add(strCodeName);
+
+            }
+
 
         }
 
@@ -107,7 +130,7 @@ namespace KOASampleCS
             if (cbo조건식.Items.Count > 0)
             {
                 //cbo조건식.SelectedIndex;
-                lRet = Parent.axKHOpenAPI.SendCondition(Parent.GetScrNum(),
+                lRet = Parent.axKHOpenAPI.SendCondition(_scrNum.ToString(),
                                                   cbo조건식.Text,
                                                   cbo조건식.SelectedIndex,
                                                   0);

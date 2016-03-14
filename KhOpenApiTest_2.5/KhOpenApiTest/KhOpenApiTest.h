@@ -73,7 +73,7 @@ typedef struct
 // 이 클래스의 구현에 대해서는 KhOpenApiTest.cpp을 참조하십시오.
 //
 class CKhOpenApiTestApp : public CWinApp
-{
+{ 
 public:
 	CKhOpenApiTestApp();
 

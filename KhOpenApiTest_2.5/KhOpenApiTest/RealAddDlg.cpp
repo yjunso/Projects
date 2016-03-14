@@ -445,7 +445,7 @@ void CRealAddDlg::OnReceiveTrCondition(LPCTSTR sScrNo,PCTSTR strCodeList, LPCTST
 
 			m_grdRealAdd.SetRowCount(nIndex-1);
 
-			nIndex = 0;
+			nIndex = 0; 
 			CString strIndex;
 			while ( AfxExtractSubString( strConditionCode, strCodeList, nIndex++, _T(';')) )
 			{

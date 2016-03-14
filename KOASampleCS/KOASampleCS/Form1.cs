@@ -24,7 +24,7 @@ namespace KOASampleCS
 
         public CondListForm2 CondListForm = null;
 
-        private int _scrNum = 5000;
+        private int _scrNum = 0;
         private string _strRealConScrNum = "0000";
         private string _strRealConName = "0000";
         private int _nIndex = 0;
@@ -34,23 +34,23 @@ namespace KOASampleCS
         // 화면번호 생산
         public string GetScrNum()
         {
+            /*
             if (_scrNum < 9999)
                 _scrNum++;
             else
                 _scrNum = 5000;
-
-            return _scrNum.ToString();
+            */
+            
+            return this._scrNum.ToString();
         }
 
         // 실시간 연결 종료
         private void DisconnectAllRealData()
         {
-            for( int i = _scrNum; i > 5000; i-- )
+            for( int i = 0;  i < 2; i++ )
             {
                 axKHOpenAPI.DisconnectRealData(i.ToString());
             }
-
-            _scrNum = 5000;
         }
 
         public Form1()
@@ -637,6 +637,55 @@ namespace KOASampleCS
             }
         }
 
+        /*
+        void CKhOpenApiTestDlg::OnReceiveTrDataKhopenapictrl(LPCTSTR sScrNo, LPCTSTR sRQName, LPCTSTR sTrcode, LPCTSTR sRecordName, LPCTSTR sPrevNext, long nDataLength, LPCTSTR sErrorCode, LPCTSTR sMessage, LPCTSTR sSplmMsg)
+{
+	if (!theApp.m_khOpenApi.GetSafeHwnd()) 
+	{
+		return;
+	}
+
+	CString strScrType, strKey = sScrNo;
+	if (!m_mapScreenNum.Lookup(strKey, strScrType))
+	{
+		return;
+	}
+
+	CWnd *pWnd = NULL;
+	if (m_mapScreen.Lookup(strKey, (void *&)pWnd) && pWnd)
+	{
+		switch (atoi(strScrType))
+		{
+			case 0:		// 현재가
+				{
+					((CCurrentPriceDlg *)pWnd)->OnReceiveTrDataKhopenapictrl(sScrNo, sRQName, sTrcode, sRecordName, sPrevNext, nDataLength, sErrorCode, sMessage, sSplmMsg);
+				}
+				break;
+			case 1:		// 주문
+				{
+					((COrderDlg *)pWnd)->OnReceiveTrDataKhopenapictrl(sScrNo, sRQName, sTrcode, sRecordName, sPrevNext, nDataLength, sErrorCode, sMessage, sSplmMsg);
+				}
+				break;
+			case 2:		// 관심종목
+				{
+					((CKwanSimDlg *)pWnd)->OnReceiveTrDataKhopenapictrl(sScrNo, sRQName, sTrcode, sRecordName, sPrevNext, nDataLength, sErrorCode, sMessage, sSplmMsg);
+				}
+				break;
+			case 3:		// 조건검색
+				{
+					((CRealAddDlg *)pWnd)->OnReceiveTrDataKhopenapictrl(sScrNo, sRQName, sTrcode, sRecordName, sPrevNext, nDataLength, sErrorCode, sMessage, sSplmMsg);
+				}
+				break;
+			case 4:		// 수익률
+				{
+					((CRateDlg *)pWnd)->OnReceiveTrDataKhopenapictrl(sScrNo, sRQName, sTrcode, sRecordName, sPrevNext, nDataLength, sErrorCode, sMessage, sSplmMsg);
+				}
+				break;
+		}
+	}
+}
+        */
+
         private void axKHOpenAPI_OnReceiveTrCondition(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnReceiveTrConditionEvent e)
         {
             Logger(Log.조회, "[화면번호] : " + e.sScrNo);
@@ -645,32 +694,9 @@ namespace KOASampleCS
             Logger(Log.조회, "[조건명 인덱스 ] : " + e.nIndex.ToString());
             Logger(Log.조회, "[연속조회] : " + e.nNext.ToString());
 
+            if(e.sScrNo.Equals("1"))
             {
-                //     CondListForm
-                Logger(Log.조회, "[sender] : " + sender.ToString());
-
-                //  Reset DataGridView Rows
-                int rowCount = CondListForm.RealAddGridView1.Rows.Count;
-                if (rowCount  > 1)
-                {
-                    for(int i=0; i< rowCount; i++)
-                        CondListForm.RealAddGridView1.Rows.RemoveAt(i);
-                }
-
-
-                string[] spConList = e.strCodeList.Split(';');
-                string strCodeName;
-
-                // DataGridView 출력
-                for (int i = 0; i < spConList.Length; i++)
-                {
-                    strCodeName = axKHOpenAPI.GetMasterCodeName(spConList[i]);
-                    //cbo조건식.Items.Insert(nIndex, strConditionName);
-                    CondListForm.RealAddGridView1.Rows.Add(strCodeName);       
-
-                }
-
-
+                CondListForm.OnReceiveTrCondition(sender, e);
             }
         }
 

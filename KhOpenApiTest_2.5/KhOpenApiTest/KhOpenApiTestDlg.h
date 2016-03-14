@@ -65,4 +65,5 @@ protected:
 	DECLARE_EVENTSINK_MAP()
 public:
 	afx_msg void OnBnClickedButton1();
+	afx_msg void OnEnChangeEdtJongcode2();
 };

@@ -475,7 +475,7 @@ void CKwanSimDlg::SendJongSearch(int nCodeCount/* = 0*/, CString strCodeList/* =
 //! Comment       : 
 //******************************************************************/
 void CKwanSimDlg::OnReceiveTrDataKhopenapictrl(LPCTSTR sScrNo, LPCTSTR sRQName, LPCTSTR sTrcode, LPCTSTR sRecordName, LPCTSTR sPrevNext, long nDataLength, LPCTSTR sErrorCode, LPCTSTR sMessage, LPCTSTR sSplmMsg)
-{
+{ 
 	CString strRQName = sRQName;
 	if (strRQName == _T("관심종목"))			// 관심종목정보 설정
 	{
