@@ -367,7 +367,7 @@ void CKhOpenApiTestDlg::OnReceiveTrDataKhopenapictrl(LPCTSTR sScrNo, LPCTSTR sRQ
 				}
 				break;
 			case 4:		// ¼öÀÍ·ü
-				{
+				{   
 					((CRateDlg *)pWnd)->OnReceiveTrDataKhopenapictrl(sScrNo, sRQName, sTrcode, sRecordName, sPrevNext, nDataLength, sErrorCode, sMessage, sSplmMsg);
 				}
 				break;

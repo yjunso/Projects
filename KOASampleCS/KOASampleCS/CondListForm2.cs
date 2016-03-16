@@ -83,14 +83,15 @@ namespace KOASampleCS
         public void SetupDataGridView()
         {
             this.Controls.Add(RealAddGridView1);
-            RealAddGridView1.ColumnCount = 6;
+            RealAddGridView1.ColumnCount = 7;
 
             RealAddGridView1.Columns[0].Name = "코드";
             RealAddGridView1.Columns[1].Name = "종목명";
             RealAddGridView1.Columns[2].Name = "현재가";
-            RealAddGridView1.Columns[3].Name = "전일대비 등락율";
-            RealAddGridView1.Columns[4].Name = "거래량";
-            RealAddGridView1.Columns[5].Name = "52주 고가";
+            RealAddGridView1.Columns[3].Name = "";
+            RealAddGridView1.Columns[4].Name = "전일대비 등락율";
+            RealAddGridView1.Columns[5].Name = "거래량";
+            RealAddGridView1.Columns[6].Name = "52주 고가";
 
             // Resize the height of the column headers. 
             RealAddGridView1.AutoResizeColumnHeadersHeight();
@@ -109,18 +110,51 @@ namespace KOASampleCS
             
             string[] spConList = e.strCodeList.Split(';');
             string strCodeName;
-
+            string strCurrPrice;
+            string strStkState;
             // DataGridView 출력
             for (int i = 0; i < spConList.Length; i++)
             {
-                strCodeName = Parent.axKHOpenAPI.GetMasterCodeName(spConList[i]);
-                //cbo조건식.Items.Insert(nIndex, strConditionName);
-                RealAddGridView1.Rows.Add(strCodeName);
-
+                if(spConList[i].Length == 6) { 
+                    strCodeName = Parent.axKHOpenAPI.GetMasterCodeName(spConList[i]);
+                    strCurrPrice = Parent.axKHOpenAPI.GetMasterLastPrice(spConList[i]);
+                    strStkState = Parent.axKHOpenAPI.GetMasterStockState(spConList[i]);
+                    //cbo조건식.Items.Insert(nIndex, strConditionName);
+                    Parent.Logger(Log.일반, spConList[i] + "-" + strCodeName + "-" + strStkState);
+                    string[] strArray = {spConList[i] , strCodeName, strCurrPrice};
+                    RealAddGridView1.Rows.Add(strArray);
+                }
             }
 
 
         }
+
+        public string SetSignData(string szData)
+        {
+            string strData = szData;
+            switch (int.Parse(strData))
+            {
+                case 1:
+                    strData = "↑";
+                    //pGrid->SetItemFgColour(nRow, nCol, RGB(255, 0, 0)); // 지정된 셀의 텍스트 색상 설정
+                    break;
+                case 2:
+                    strData = "▲";
+                    //pGrid->SetItemFgColour(nRow, nCol, RGB(255, 0, 0)); // 지정된 셀의 텍스트 색상 설정
+                    break;
+                case 3: strData = ""; break;
+                case 4:
+                    strData = "↓";
+                    //pGrid->SetItemFgColour(nRow, nCol, RGB(0, 0, 255)); // 지정된 셀의 텍스트 색상 설정
+                    break;
+                case 5:
+                    strData = "▼";
+                    //pGrid->SetItemFgColour(nRow, nCol, RGB(0, 0, 255)); // 지정된 셀의 텍스트 색상 설정
+                    break;
+            }
+            return strData;
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
